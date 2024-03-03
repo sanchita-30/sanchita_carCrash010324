@@ -4,10 +4,10 @@ This project has two folders:
   2. src
 
 -> data : has 3 sub-folders (BRONZE, SILVER & GOLD)
-          The data goes through an ETL process following a medallian architecture to get the required outcome.
-          BRONZE: has the raw data given
-          SILVER: is the pre-processed data, with some data cleaning functions in place
-          GOLD: application required data results.
+					The data goes through an ETL process following a medallian architecture to get the required outcome.
+		 			BRONZE: has the raw data given	
+					SILVER: is the pre-processed data, with some data cleaning functions in place
+        	GOLD: application required data results.
 -> src : Has an ETL folder, with a sub-folder called Utils.
           1. UTILS: contains 3 files
                 1. modules: with basic util functions
